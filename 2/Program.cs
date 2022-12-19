@@ -7,26 +7,13 @@
 Console.Write("Введите любое целое число: ");
 string userInput = Console.ReadLine() ?? "";
 int number = int.Parse(userInput);
-
-while (a3 = number % 10 / 1)
+int a3 = 0;
+while ((int)a3 = number % 10 / 1)
 {
     Console.WriteLine($"{number} ---> {a3}");
     break;
     number = number % 10 / 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* 
