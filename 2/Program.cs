@@ -7,16 +7,7 @@
 Console.Write("Введите любое целое число: ");
 string userInput = Console.ReadLine() ?? "";
 int number = int.Parse(userInput);
-int a3 = 0;
-while ((int)a3 = number % 10 / 1)
-{
-    Console.WriteLine($"{number} ---> {a3}");
-    break;
-    number = number % 10 / 1;
-}
 
-
-/* 
 if (number >= 100 && number < 1000)
 {
     int a3 = number % 10 / 1;
@@ -55,4 +46,4 @@ else if (number >= 100000000 && number < 1000000000)
 else if (number < 100)
 {
     Console.WriteLine($"{number} ---> третьей цифры нет");
-} */
+}
